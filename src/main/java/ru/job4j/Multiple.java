@@ -122,8 +122,5 @@ public class Multiple {
         System.out.println("10 * 8 = 80");
         System.out.println("10 * 9 = 90");
         System.out.println("10 * 10 = 100");
-
-
-
     }
 }
