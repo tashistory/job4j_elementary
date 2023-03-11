@@ -54,9 +54,10 @@ public class FindLoopTest {
         int expected = 3;
         assertThat(result).isEqualTo(expected);
     }
+
     @Test
     public void whenDiapasonHasNot4ThenMinus1() {
-        int[] data = new int[] {6, 4, 9, 2, 1, 0, 3, 5, 10, 15, 18 ,19};
+        int[] data = new int[] {6, 4, 9, 2, 1, 0, 3, 5, 10, 15, 18, 19};
         int el = 4;
         int start = 3;
         int finish = 10;
@@ -67,7 +68,7 @@ public class FindLoopTest {
 
     @Test
     public void whenDiapasonHasNot0Then5() {
-        int[] data = new int[] {6, 4, 9, 2, 1, 0, 3, 5, 10, 15, 18 ,19};
+        int[] data = new int[] {6, 4, 9, 2, 1, 0, 3, 5, 10, 15, 18, 19};
         int el = 0;
         int start = 4;
         int finish = 9;
