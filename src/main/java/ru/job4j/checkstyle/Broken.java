@@ -9,6 +9,7 @@ public class Broken {
     Broken() {
 
     }
+
     void echo() {
     }
 
