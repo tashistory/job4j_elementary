@@ -6,7 +6,7 @@ public class Broken {
     private String surname;
     private static final String NEWVALUE = "";
 
-    Broken() {
+    public Broken() {
 
     }
 
