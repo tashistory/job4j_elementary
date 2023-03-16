@@ -9,6 +9,6 @@ public class Max {
         return max(left, right) > first ? max(left, right) : first; }
 
     public static int max(int left, int right, int first, int second) {
-        return max(max(left, right), first) > second ? max(left, right, first) : second; }
+        return max(max(left, right), first) > second ? max(max(left, right), first) : second; }
 }
 
