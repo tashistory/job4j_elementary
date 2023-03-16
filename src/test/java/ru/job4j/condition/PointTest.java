@@ -14,7 +14,6 @@ public class PointTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 
-
     @Test
     public void when01to23then2dot82() {
         double expected = 2.82;
